@@ -13,5 +13,17 @@ Content-Type: application/json
     "hr":"12"
 }
 
+### Patch method to server
+PATCH   http://localhost:8000/api/v1/task/
+Content-Type: application/json
+
+{
+    "_id": "62676c4b542070217ee1a8b5",
+   
+    "hr":"5"
+}
+
+
+
 ### Detele task to the serever
 DELETE   http://localhost:8000/api/v1/task/626752285f0b85602117fccc

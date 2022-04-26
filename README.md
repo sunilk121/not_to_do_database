@@ -15,6 +15,7 @@ Here is the link for FrontENd App....
    | 1   | `GET`    | `/`         | Get ALl tasks                                          |
    | 2   | `POST`   | `/`         | Get ALl taskssend a task obj to store in the daqtabase |
    | 3   | `Delete` | `/{taskid}` | Delete the specific task                               |
+   | 4   | `Update` | `/{taskid}` | Update the specific task                               |
 
 ### User API
 
