@@ -2,16 +2,16 @@
 GET http://localhost:8000
 
 ### get task from server
-GET   http://localhost:8000/api/v1/task
+GET   http://localhost:8000/api/v1/task/
 
 ### Post task to server
-POST  http://localhost:8000/api/v1/task
+POST  http://localhost:8000/api/v1/task/
 Content-Type: application/json
 
 {
-    "task":"watching TV",
+    "task":"playing fifa",
     "hr":"12"
 }
 
 ### Detele task to the serever
-DELETE   http://localhost:8000/api/v1/task
+DELETE   http://localhost:8000/api/v1/task/626752285f0b85602117fccc

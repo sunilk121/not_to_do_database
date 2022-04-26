@@ -6,5 +6,16 @@ export const insertTask = (object) => {
 };
 
 // read all data
+export const getAllTask = () => {
+  return TaskListSchema.find();
+};
+
+//find single task with an id
+export const getTask = (_id) => {
+  return TaskListSchema.findById(_id);
+};
 
 //delete data
+export const deleteTask = (_id) => {
+  return TaskListSchema.findByIdAndDelete(_id);
+};
